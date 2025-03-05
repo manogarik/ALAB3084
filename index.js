@@ -46,6 +46,15 @@ console.log(result);
 
 //Removing last element
 result.pop();
-console.log("After removing the last element " + result);
+console.log("After removing the last element: " );
+console.log(result);
 
 //inserting an object at index 1
+console.log("After inserting an element at index 1: ")
+result.splice(1,0,{id: "48", name: "Barry", occupation: "Runner", age: "25"});
+console.log(result);
+
+//Adding an object to the end of the array
+console.log("After adding the object to the end of the array : ");
+result.push({ id: "7", name: "Bilbo", occupation: "None", age: "111" });
+console.log(result);
